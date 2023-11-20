@@ -14,7 +14,7 @@ body {
 
 .intro-image {
     background-attachment: fixed;
-    background-image: url('/img/candle1.jpg');
+    background-image: url('../img/candle1.jpg');
     background-size: cover;
     background-position: bottom;
     height: 700px;
@@ -71,7 +71,7 @@ body {
 
 .packaging-image {
     background-attachment: fixed;
-    background-image: url('/img/candle2.jpg');
+    background-image: url('../img/candle2.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -130,7 +130,7 @@ text-align: center;
 
 .tutorials-image {
     background-attachment: fixed;
-    background-image: url('/img/candle3.jpg');
+    background-image: url('../img/candle3.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
