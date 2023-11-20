@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('/img/candle1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #f5e8e1cb;
+    border: 2px solid #c9c6c3cb;
+    color: #63645b;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #63645b;
+    clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    margin-top: -3.5rem;
+    margin-bottom: -3.5rem;
+    color: #ebdfcc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+
+.intro-text h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.intro-text p {
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+  
+}
+
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('/img/candle2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #3d2f19c7;
+    border: 2px solid #3d2f19c7;
+    color: #ebdfcc;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.packaging-text {
+    background-color: rgb(78, 65, 44);
+    clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+    margin-top: -3.5rem;
+    margin-bottom: -3.5rem;
+    color: #ebdfcc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+
+}
+
+.packaging-text h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-text p {
+font-size: 20px;
+width: 1300px;
+text-align: center;
+}
+
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('/img/candle3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: rgba(31, 25, 20, 0.795);
+    border: 2px solid rgb(31, 25, 20);
+    color: #ebdfcc;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.footer {
+    height: 250px;
+    background-color: rgb(31, 25, 20);
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    margin-top: -3.5rem;
+    color: #ebdfcc;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #ebdfcc;
+    text-decoration: none;
+
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
